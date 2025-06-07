@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">DIMSTORE</div>
+        <ul class="menu">
+            <li>BERANDA</li>
+            <li>TOPUP</li>
+            <li>JOKI</li>
+            <li>RIWAYAT</li>
+        </ul>
+        <input type="text" placeholder="Cari Game atau Joki" class="search-box"/>
+    </nav>
+
+    <section class="content">
+        <h2>POPULAR SEKARANG!</h2>
+        <p>Lihat beberapa produk yang populer saat ini</p>
+
+        <div class="game-grid">
+          <div class="game-card">
+            <img src="Mobile legends.png" alt="Mobile Legends">
+            <span>Mobile Legends</span>
+          </div>
+            <div class="game-card">
+            <img src="FREE FIRE.png" alt="Free Fire">
+            <span>Free Fire</span>
+        </div>
+        <div class="game-card">
+             <img src="VALORANT.jpg" alt="Valorant">
+             <span>Valorant</span>
+        </div>
+        <div class="game-card">
+            <img src="kreasi-ml.png" alt="kereasi ml">
+            <span>Joki Mobile Legends</span>
+        </div>
+        <div class="game-card">
+            <img src="PUBG-MOBILE_200.webp" alt="Pubg Mobile">
+            <span>Pubg Mobile</span>
+        </div>
+          <div class="game-card">
+            <img src="honor of kings.webp" alt="honor of kings">
+            <span>Honor of Kings</span>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer-buttons">
+        <button>Top Up</button>
+        <button>Jasa Joki</button>
+        <button>Voucher</button>
+        <button>Live App</button>
+    </footer>
+</body>
+</html>
